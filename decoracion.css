@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 228, 196);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/vector-gratis/pequeno-patron-corazon-amor-telon-fondo-envolver-papel-impresion_1017-49855.jpg');
+}
+
+.titulo{
+  margin-block-end: 40px;
+  color:rgb(177, 62, 110);
+}
+
+.contenido {
+  background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-pink-and-yellow-gradient-smudge-abstract-style-background-picture-image_1328753.jpg');
+  border-radius: 30px;
+  height: 650px;
+  width: 900px;
+  display: flex;
+  text-align: center;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  border-style: ridge;
+}
+.carta {
+  background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-pink-and-yellow-gradient-smudge-abstract-style-background-picture-image_1328753.jpg'); /* Rosa claro */
+  color: rgb(0, 0, 0); /* Gris oscuro para texto */
+  width: 760px;
+  height: 400px; /* O ajusta si lo necesitas */
+  display: flex;
+  flex-direction: column; /* Para apilar los elementos uno bajo otro */
+  align-items: center;     /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente (si hay altura definida) */
+  text-align: center;
+  padding: 20px; /* Opcional: para que el contenido no toque los bordes */
+  border-radius: 20px;
+  color: rgb(70, 70, 70);
+}
+
+.botones {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 100px; /* Espacio entre botones */
+  margin-top: 30px; /* Separación con el texto de arriba */
+}
+
+.descripcion_1{
+  font-size: larger;
+}
+
+.descripcion_2{
+  font-size: larger;
+}
+
+.descripcion_3{
+  font-size: xx-large;
+}
+
+.botones button{
+    border-radius: 40px;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-textura-papel-acuarela-vector_53876-172777.jpg?semt=ais_items_boosted&w=740'); /* Rosa claro */
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+    margin-block-end: 20px;
+}
+
+.botones button:hover{
+    color: 	rgb(215, 119, 185);
+}

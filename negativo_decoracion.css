@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 228, 196);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/vector-gratis/pequeno-patron-corazon-amor-telon-fondo-envolver-papel-impresion_1017-49855.jpg');
+}
+
+.tituloNe{
+  margin-block-end: 50px;
+  margin-top: 60px;
+  color:rgb(177, 62, 110);
+}
+.contenidoNe {
+  background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-pink-and-yellow-gradient-smudge-abstract-style-background-picture-image_1328753.jpg');
+  border-radius: 30px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  border-style: ridge;
+  font-size: x-large;
+}
+
+.botonNe {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 100px; /* Espacio entre botones */
+  margin-top: 50px; /* Separación con el texto de arriba */
+  margin-block-end: 50px;
+}
+
+.texto_1{
+    font-size: larger;
+    color: rgb(70, 70, 70);
+}
+
+.texto_2{
+    font-size: larger;
+    color:rgb(70, 70, 70);
+}
+
+.botonNe button{
+    border-radius: 40px;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-textura-papel-acuarela-vector_53876-172777.jpg?semt=ais_items_boosted&w=740'); /* Rosa claro */
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    margin-top: 30px;
+}
+
+.botonNe button:hover{
+    color: 	rgb(215, 119, 185);
+}
